@@ -1,6 +1,6 @@
 /*
- * Stylesheet for http://sarahnoor.com
- * Date: June 2014
+ * Stylesheet for http://hbplastering.com
+ * Date: August 2014
  * Author: Arup Sen
  * http://arupdesigns.co.uk
  * arup@arupdesigns.co.uk
@@ -175,8 +175,6 @@ figure p {
   letter-spacing: 1px;
   line-height: 1.8em;
 }
-/*footer image link - arup designs*/
-#footer{}
 
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
