@@ -20,35 +20,35 @@ small, strike, strong, sub, sup, tt, var,
 dd, dl, dt, li, ol, ul,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-      padding: 0;
-        border: 0;
-          font-weight: inherit;
-            font-style: inherit;
-              font-size: 100%;
-                font-family: inherit;
-                  text-align: left;
-                    vertical-align: baseline;
-                  }
-                  a img, :link img, :visited img {border: 0;}
-                  table {
-                      border-collapse: collapse;
-                        border-spacing: 0;}
-                        ol, ul {list-style: none;}
-                        q:before, q:after,
-                        blockquote:before, blockquote:after {
-                            content: "";}
-                            /*    after the zeroing out what next ???*/
-                                
-                            /* COLOUR PALETTE
-                             *
-                             * #C9C9C9 - very pale grey
-                             * #B0B0B0 - medium grey
-                             * #666666 - darker grey
-                             * #B31E00 - red
-                             * #006276 - blue
-                             *
-                             * */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  text-align: left;
+  vertical-align: baseline;
+}
+a img, :link img, :visited img {border: 0;}
+table {
+  border-collapse: collapse;
+border-spacing: 0;}
+ol, ul {list-style: none;}
+q:before, q:after,
+blockquote:before, blockquote:after {
+content: "";}
+/*    after the zeroing out what next ???*/
+
+/* COLOUR PALETTE
+ *
+ * #C9C9C9 - very pale grey
+ * #B0B0B0 - medium grey
+ * #666666 - darker grey
+ * #B31E00 - red
+ * #006276 - blue
+ *
+ * */
 /* Altera webfont */
 @font-face {
     font-family: 'alteraregular';
