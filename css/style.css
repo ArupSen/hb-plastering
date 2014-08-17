@@ -63,11 +63,12 @@ content: "";}
 }
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
-body{font-family:'alteraregular', Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
+body{font-family:'alteraregular', Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#691529;}
 div#wrap{
-  width: 1130px;
+  width: 960px;
   margin: 0 auto;
   position: relative;
+  background-color: #fff;
 }
   
   
