@@ -25,7 +25,7 @@ include_once DATAPATH.'meta_tags.php';
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-<!--  <link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" /> -->
+<link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
 <!-- <link rel="shortcut icon" href="<?php echo IMGPATH.'favicon.ico'; ?>" type="image/x-icon" /> -->
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,4 +38,4 @@ include_once DATAPATH.'meta_tags.php';
 <body id="<?php echo $filename; ?>">
   <div id="wrap">
   <h1><a href="index.php">HB Plastering</a></h1>
-  <h2 id="subheading"></h2>
+  <h2 id="subheading">Plastering & Rendering Specialists</h2>
