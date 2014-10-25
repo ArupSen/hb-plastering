@@ -70,18 +70,21 @@ div#wrap{
   position: relative;
   background-color: #fff;
 }
-  
-  
+
+
 /*grouped selectors - good for position:absolute and relative*/
 
 
 /*main heading and sub heading*/
 h1 {
+  background: url('../images/hb_logo.png') no-repeat;
+  height: 140px;
+  font-size: 0;
 }
 h1 a {
 }
 
-  
+
 /*content area*/
 div#contents{}
 #contents p{}
@@ -93,7 +96,7 @@ div#contents{}
 #contents a{}
 #contents a:hover{}
 
-  
+
 /*main navbar*/
 ul#navbar{
 }
@@ -101,7 +104,7 @@ ul#navbar li{
 }
 ul li#nav-about, ul li#nav-contact {
 }
-  
+
 div#clear {clear:left;}
 ul#navbar li a{
 }
@@ -157,18 +160,14 @@ figure p {
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
   /*  global rules*/
-    div#wrap{}/*safari rule*/
+  div#wrap{}/*safari rule*/
 
-    /*  navbar*/
-      
-      ul#navbar{}
-        ul#navbar li {}
-          
+  /*  navbar*/
+  ul#navbar{}
+  ul#navbar li {}
 
 
-        /*  content area*/
-          div#contents{}
-            div#contents p{}
-              
-              
-          }
+  /*  content area*/
+  div#contents{}
+  div#contents p{}
+}
