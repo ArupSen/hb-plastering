@@ -31,5 +31,13 @@ include_once DATAPATH.'meta_tags.php';
 </head>
 <body id="<?php echo $filename; ?>">
   <div id="wrap">
+<header>
   <h1><a href="index.php">HB Plastering</a></h1>
+<address>
+<span class="phone">call: 07974 295601</span>
+22 Champion Crescent<br>
+Sydenham, London SE26 4HH<br>
+Tel: 0208 676606
+</address>
+</header>
   <h2 id="subheading">Plastering &amp; Rendering Specialists</h2>
