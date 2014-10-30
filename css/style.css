@@ -65,7 +65,7 @@ content: "";}
 /*the main global rules*/
 body{font-family:'alteraregular', Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#691529;}
 div#wrap{
-  width: 960px;
+  width: 900px;
   margin: 0 auto;
   position: relative;
   background-color: #fff;
@@ -74,10 +74,13 @@ div#wrap{
 
 /*grouped selectors - good for position:absolute and relative*/
 
-
+/* bootstrap overrides */
+.nav>li>a {
+  padding: 10px 10px;
+}
 /*main heading and sub heading*/
 h1 {
-  background: url('../images/hb_logo.png') no-repeat;
+  background: url('../images/hb_logo_long.png') no-repeat;
   height: 140px;
   font-size: 0;
 }
