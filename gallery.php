@@ -19,6 +19,15 @@ for ($i = 1; $i < 27; $i++) {
   }
   $next_slide = 'slide-'.$i.'.jpg';
   img_tag($next_slide);
+  if ($i == 9) {
+    echo '<div class="carousel-caption">';
+    echo '<p>Sand and cement, waterproof render</p>';
+    echo '</div>';
+  } else {
+    echo '<div class="carousel-caption">';
+    echo '<p>text describing the slide image goes here</p>';
+    echo '</div>';
+  }
   echo '</div>';
 }
 ?>
