@@ -18,23 +18,34 @@
   pageTracker._trackPageview();
   } catch(err) {}</script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="<?php
-echo JSPATH.'responsiveCarousel.min.js';
-?>"></script>
 <script>
+// site specific non library stuff
   jQuery(document).ready(function($){
-$('.crsl-items').carousel({ overflow: true, visible: 2, itemMinWidth: 400, itemMargin: 0 });
-});
-// hover to reveal the item details
-$('figure p').hide();
-$('figure').on('mouseenter', function() {
-  $(this).find('p').fadeIn();
-});
-$('figure').on('mouseleave', function() {
-  $(this).find('p').fadeOut();
+    // quote page contact form
+    var $form = $('form');
+    var $form_input = $('form input');
+
+    $form.addClass('form-horizontal');
+    $form.attr('role','form');
+    $('form p').wrap('<div class="form-group">');
+    $('form .submit').wrap('<div class="form-group">');
+    $('form label').addClass('col-sm-2 control-label');
+    $form_input.addClass('form-control');
+    $('form textarea').addClass('form-control');
+    $('form textarea').wrap('<div class="col-sm-10">');
+    $form_input.eq(0).wrap('<div class="col-sm-10">');
+    $form_input.eq(1).wrap('<div class="col-sm-10">');
+    $form_input.eq(2).wrap('<div class="col-sm-10">');
+    $form_input.eq(3).wrap('<div class="col-sm-2">');
+    $('.submit').addClass('col-sm-2 col-sm-offset-2');
+    $('.submit input').addClass('btn btn-default');
+    $('.submit input').attr('value', 'Request Quote');
+    $('.errorlist').addClass('alert alert-danger col-sm-10 col-sm-offset-2');
+    // animated trowel
+    $('header img').animate({left: '584px'}, 'slow');
 });
 </script>
 <!-- Latest compiled and minified JavaScript -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>
