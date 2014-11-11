@@ -6,11 +6,9 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
-<h2>External Rendering in London</h2>
-<p>Render your property a huge success! Enjoy improved insulation and save money on your utility bills with high quality external rendering carried out by the experts from Sydenham, London.
-<h3>For Solid Results</h3>
-<p>The quality of your exterior walling says a lot about you. HB Plastering use high-quality materials and time-served techniques to lay a range of rendering. For added charm, the render is textured, coloured or painted following application.</p>
-<p>Give your building the very best protection. Using layers coated with adhesive, HB Plastering quickly and efficiently insulate solid walls from the outside. Additional finishes include texturing and pebble dashing, giving your premises an entire image overhaul. Enjoy longer lasting-results with our domestic plasterers.</p>
+<h2>For Solid Results</h2>
+<p>The quality of your exterior walling says a lot about you. HB Plastering use high-quality materials and time-served techniques to apply a range of rendering. For added charm, the render is textured, coloured or painted following application.</p>
+<p>Give your building the very best protection or hide external flaws with sand and cement water proof render, lime render, insulated render or pebble dash. HB Plastering can advise the best solution for the condition of your external walls and will do their best to give you outstanding and long lasting results.</p>
 <p>Request a quote on external rendering offered by the experts from Sydenham, London.</p>
 
 
