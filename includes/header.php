@@ -19,7 +19,7 @@ include_once DATAPATH.'meta_tags.php';
   <meta name="keywords" content="<?php echo ${$filename}['keywords']; ?>" />
   <title><?php echo ${$filename}['title']; ?></title>
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
 <!-- <link rel="shortcut icon" href="<?php echo IMGPATH.'favicon.ico'; ?>" type="image/x-icon" /> -->
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -34,10 +34,13 @@ include_once DATAPATH.'meta_tags.php';
 <header>
   <h1><a href="index.php">HB Plastering</a></h1>
 <address>
-<span class="phone">call: 07974 295601</span>
+<span class="phone">call: 07974 295601</span><br>
 22 Champion Crescent<br>
 Sydenham, London SE26 4HH<br>
-Tel: 0208 676606
+Tel: 0208 6760606
 </address>
+<?php
+img_tag('trowel.png','plastering trowel');
+?>
+<button class="btn btn-lg btn-warning"><a href="quote.php">Request Quote >>></a></button>
 </header>
-  <h2 id="subheading">Plastering &amp; Rendering Specialists</h2>
