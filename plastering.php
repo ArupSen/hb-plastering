@@ -6,6 +6,11 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
+<div class="container">
+<?php
+img_tag('plastering.jpg');
+?>
+</div>
 <h2>Plaster work in London and Kent</h2>
 <p>HB Plastering are proud to have built up a reputation for excellent quality and service.</p>
 <h3>Best for lasting plastering</h3>
