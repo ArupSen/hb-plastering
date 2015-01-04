@@ -24,6 +24,7 @@
     // quote page contact form
     var $form = $('form');
     var $form_input = $('form input');
+    var $item = $('.item');
 
     $form.addClass('form-horizontal');
     $form.attr('role','form');
@@ -43,9 +44,14 @@
     $('.errorlist').addClass('alert alert-danger col-sm-10 col-sm-offset-2');
     // animated trowel
     $('header img').animate({left: '584px'}, 'slow');
+    // add caption text as alt attribute on gallery page
+    $item.each(function() { 
+      $(this).find('img').attr('alt', $(this).find('p').text());
+    });
 });
 </script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src='https://cdn.firebase.com/js/client/1.1.1/firebase.js'></script>
 </body>
 </html>
