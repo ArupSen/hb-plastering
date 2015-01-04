@@ -8,9 +8,7 @@
  * No license. Use what you like.
  * Happy to receive feedback :)
  * */
-
-
-
+/*zeroing stuff out*/
 html, body, div, span,
 applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -20,12 +18,10 @@ small, strike, strong, sub, sup, tt, var,
 dd, dl, dt, li, ol, ul,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
   padding: 0;
   border: 0;
   font-weight: inherit;
   font-style: inherit;
-  font-size: 100%;
   font-family: inherit;
   text-align: left;
   vertical-align: baseline;
@@ -38,8 +34,6 @@ ol, ul {list-style: none;}
 q:before, q:after,
 blockquote:before, blockquote:after {
 content: "";}
-/*    after the zeroing out what next ???*/
-
 /* COLOUR PALETTE
  *
  * #C9C9C9 - very pale grey
@@ -57,26 +51,57 @@ div#wrap{
   margin: 0 auto;
   position: relative;
   background-color: #fff;
+  padding: 10px 0;
 }
 
 /*grouped selectors - good for position:absolute and relative*/
+h2, h3, p {
+  padding: 0 15px;
+}
 
 /* bootstrap overrides */
 .nav>li>a {
-  padding: 10px 10px;
+  padding: 10px 9px;
 }
 /*main heading and sub heading*/
 h1 {
-  background: url('../images/hb_logo_long.png') no-repeat;
+  background: url('../images/hb_logo_long2.png') no-repeat;
   height: 140px;
   font-size: 0;
+  margin: 0 10px;
 }
 h1 a {
+}
+address {
+  position: absolute;
+  top: 10px;
+  left: 700px;
+  font-size: 13px;
+  text-align: center;
+}
+span.phone {
+  font-weight: bold;
+}
+header img {
+  position: absolute;
+  top: 22px;
+  left: 165px;
+}
+header button {
+  position: absolute;
+  right: 15px;
+  top: 90px;
+}
+header button a, header button a:hover {
+  text-decoration: none;
+  color: #333;
 }
 
 /*content area*/
 div#contents{}
-#contents p{}
+#contents p{
+  font-size: 14px;
+}
 
 #contents ul, #contents h2{}
 
@@ -88,64 +113,43 @@ div#contents{}
 
 /*main navbar*/
 ul#navbar{
+  background: #ccc;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  background-color: #E0ABB5;
 }
 ul#navbar li{
 }
-ul li#nav-about, ul li#nav-contact {
+#index #nav-home, #plastering #nav-plastering, #rendering #nav-rendering, #damp_proofing #nav-damp_proofing, #gallery #nav-gallery, #qualification #nav-qualification, #quote #nav-quote, #testimonials #nav-testimonials {
+  background: #eee;
+  border-radius: 4px;
 }
-
 div#clear {clear:left;}
 ul#navbar li a{
-}
-/* heading already links to home page */
-#nav-home {
-}
-/* collection pages with gallery */
-div.crsl-wrap {
-  width: 50000px !important;
-  margin-top: -15px;
-}
-a.previous {
-  position: absolute;
-  top: 450px;
-  z-index: 2;
-  padding-left: 15px;
-}
-a.next {
-  position: absolute;
-  right: 0;
-  top: 450px;
-  z-index: 2;
-  text-align: right;
-  padding-right: 15px;
-}
-a.next, a.previous {
-  text-decoration: none;
-  font-size: 50px;
+  font-size: 14px;
   color: #333;
-  border: 1px solid #ccc;
-  width: 1em;
-  background: #FFF;
-  opacity: 0.7;
-  box-shadow: 2px 2px 1px #ccc;
 }
-figure.crsl-item {
-  width: 800px !important;
+/* gallery page */
+#gallery #wrap {
+  padding-bottom: 0;
 }
-figure p {
-  width: 600px;
+.carousel-caption p {
   text-align: center;
-  position: absolute;
-  top: 0;
-  height: 300px;
-  background: #FFF;
-  opacity: 0.8;
-  font-size: 1.3em;
-  padding-top: 300px;
+  font-size: 20px !important;
+  text-shadow: 0 1px 7px #000;
   letter-spacing: 1px;
-  line-height: 1.8em;
 }
-
+/* contact page - quote.php */
+.credits {
+  display: none;
+}
+.ddfmerrors {
+  display: none;
+}
+/* testimonials page */
+.comments .panel {
+  padding: 0;
+}
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
   /*  global rules*/
