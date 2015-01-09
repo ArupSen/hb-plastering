@@ -120,7 +120,7 @@ ul#navbar{
 }
 ul#navbar li{
 }
-#index #nav-home, #plastering #nav-plastering, #rendering #nav-rendering, #damp_proofing #nav-damp_proofing, #gallery #nav-gallery, #qualification #nav-qualification, #quote #nav-quote, #testimonials #nav-testimonials {
+#index #nav-home, #plastering #nav-plastering, #rendering #nav-rendering, #damp_proofing #nav-damp_proofing, #gallery #nav-gallery, #qualification #nav-qualification, #quote #nav-quote, .testimonials #nav-testimonials {
   background: #eee;
   border-radius: 4px;
 }
@@ -149,6 +149,24 @@ ul#navbar li a{
 /* testimonials page */
 .comments .panel {
   padding: 0;
+}
+.navigation {
+  clear: both;
+}
+.entry .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+p.errorMessage {
+  color: red;
+}
+legend span {
+  position: relative;
+  left: 150px;
+  width: 1em;
+  display: inline-block;
+  height: 1em;
 }
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
