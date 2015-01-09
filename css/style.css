@@ -168,6 +168,19 @@ legend span {
   display: inline-block;
   height: 1em;
 }
+.testimonials .form-group input {
+  margin: 10px 0;
+}
+.testimonials .panel-default {
+  padding:0;
+}
+legend {
+  margin-bottom: 0;
+  font-size:10px;
+}
+.testimonials .col-sm-10 {
+  padding-left:0;
+}
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
   /*  global rules*/
