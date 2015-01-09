@@ -45,13 +45,28 @@
     // animated trowel
     $('header img').animate({left: '584px'}, 'slow');
     // add caption text as alt attribute on gallery page
-    $item.each(function() { 
+    $item.each(function() {
       $(this).find('img').attr('alt', $(this).find('p').text());
+    });
+    // testimonials
+    $('.credit').remove();
+    $('.timestamp').remove();
+    $('.form-group input.submit').removeClass('col-sm-offset-2');
+    $('.testimonials .nav li').find('a').each(function() {
+      $(this).attr('href', "../" + $(this).attr('href'));
+    });
+    var $quote_link = $('.testimonials header button a');
+    $quote_link.attr('href', "../" + $quote_link.attr('href'));
+    $('.testimonials #nav-testimonials a').attr('href', 'index.php');
+    // password hidden but revealed by clicking a secret spot
+    $('.challengeImage').hide();
+    $('legend').append('<span>');
+    $('legend span').on('click', function() {
+      $('.challengeImage').show();
     });
 });
 </script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src='https://cdn.firebase.com/js/client/1.1.1/firebase.js'></script>
 </body>
 </html>
