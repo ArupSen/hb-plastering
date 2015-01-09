@@ -9,7 +9,7 @@
   <li id="nav-gallery"><a href="gallery.php" title="gallery">gallery</a></li>
   <li id="nav-qualification"><a href="qualification.php" title="qualification">qualification</a></li>
   <li id="nav-quote"><a href="quote.php" title="quote">quote</a></li>
-  <li id="nav-testimonials"><a href="testimonials.php" title="testimonials">testimonials</a></li>
+  <li id="nav-testimonials"><a href="testimonials/index.php" title="testimonials">testimonials</a></li>
 </ul>
 <div id="clear"></div>
 <div id="contents">
